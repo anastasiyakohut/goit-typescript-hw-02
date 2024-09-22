@@ -1,5 +1,8 @@
 import css from './ErrorMessage.module.css';
+import  { FC } from 'react';
 
-export default function ErrorMessage() {
+const ErrorMessage: FC = () => {
     return <p className={css.error}>Oops! There was an error, please reload this page!</p>;
-}
+};
+
+export default ErrorMessage;
